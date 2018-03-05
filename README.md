@@ -1,4 +1,4 @@
-# ejector
+# macOS ejector
 
 Ejector is a tool to prevent file systems from being mounted on macOS. 
 
