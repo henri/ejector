@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# (C) 2018 Lucid Systems - Henri Shustak
+# Licenced under the Apache Licence
+# http://www.apache.org/licenses/LICENSE-2.0
+
+# Example build script version 1.0
+
+launchctl unload -w /Library/LaunchDaemons/org.lucidsystems.ejector.plist
+sleep 0.1
+launchctl load -w /Library/LaunchDaemons/org.lucidsystems.ejector.plist
+
+exit 0
